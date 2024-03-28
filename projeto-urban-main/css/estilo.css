@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*Criando regras usando o fluxo de trabalho do MOBILE FIRST - 320px
+
+OBS: As regras aqui criadas também servirão para o site como um todo, ou seja, independente do tamanho da minha tela.*/
+
+body {
+
+    font-family: sans-serif;
+    background-image: url(/projeto-urban-main/assets/Rectangle\ 119.jpg);
+    background-attachment: fixed;
+}
+.femininas {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    
+    
+}
+
+.meninas {
+    width: 30%; 
+    margin: 10px; 
+    text-align: center; 
+    
+    
+}
+
+.meninas img {
+    display: block;
+    margin: 0 auto;
+    border-bottom: 60px solid #454444;
+    border-radius: 10px;
+}
+
+
