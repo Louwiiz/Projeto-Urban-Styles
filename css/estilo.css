@@ -2,6 +2,12 @@
 /* Criando regras usando o fluxo de trabalho do MOBILE FIRST - 320px
 OBS: As regras aqui criadas também servirão para o site como um todo, ou seja, independente do tamanho da minha tela. */
 
+@media screen and (max-width: 600px) {
+    body {
+        color: white; /* Definir a cor do texto como branco */
+    }
+}
+
 body {
 
     font-family: sans-serif;
@@ -24,7 +30,7 @@ header {
 }
 
 img {
-    max-width: 100%;
+   width: 100%;
 }
 
 h1 img {
@@ -78,52 +84,6 @@ h1 img {
     color: #FF9900;
 }
 
-.rodape {
-    background-color: #1F2124;
-    text-align: center;
-    box-shadow: 0 0 18px white;
-}
-
-.ajuda {
-    margin: 0;
-    color: white;
-}
-
-.menu-rodape ul {
-    list-style: none;
-    margin: 17px auto;
-    padding: 0;
-}
-
-.menu-rodape li {
-    padding: 1px;
-    text-transform: uppercase;
-    width: 100%;
-
-
-}
-
-.menu-rodape a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding: 7px;
-
-}
-
-.forma {
-    margin-top: 55px;
-    margin-bottom: 30px;
-    color: white;
-}
-
-.conteudo-pagamento {
-    padding: 10px;
-}
-
-.logo-rodape {
-    margin: 33px;
-}
 
 .assinatura {
     font-family: "Alata", sans-serif;
@@ -282,9 +242,25 @@ aside img {
     margin-left: 6%;
     box-shadow: 0px 0px 40px white;
 }
+.meninas{
+    margin-right: 19px;
+    border: 1px red solid;
+    margin-bottom: 25px;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 17px;
+}
+.meninas img{
+    width: 94%;
+}
+.meninas p{
+    width: 220px;
+    margin-bottom: 0;
+}
 
 
-@media screen and (min-width:600px) {
+/* @media screen and (min-width:600px) {
     #coleções {
         justify-content: space-evenly;
         font-size: 33px
@@ -304,17 +280,17 @@ aside img {
     .femininas {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+
         margin: 0 100px;
         margin-top: 100px;
-
     }
 
     .meninas {
         width: calc(33.33% - 30px);
-        margin: 0 15px;
-        color: white;
-
+  
+    color: white;
+    border: 1px red solid;
+    padding: 14px
 
     }
 
@@ -324,7 +300,7 @@ aside img {
         width: 100%;
         max-width: 80%;
         border-radius: 10px;
-        border: 2px solid #FF9900;
+      
 
     }
 
@@ -339,3 +315,6 @@ aside img {
     filter: brightness(150%);
 
 }
+main{
+    display: flex;
+} */
